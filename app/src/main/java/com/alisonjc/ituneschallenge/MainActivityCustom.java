@@ -20,13 +20,13 @@ public class MainActivityCustom extends AppCompatActivity{
         final CustomView view = new CustomView(this, null);
         view.onBind(hasAvatar);
 
-        final Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                button.isSelected();
-            }
-        });
+//        final Button button = findViewById(R.id.button);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                button.isSelected();
+//            }
+//        });
 
     }
 
